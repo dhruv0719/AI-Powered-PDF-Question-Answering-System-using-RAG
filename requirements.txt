@@ -1,0 +1,15 @@
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+torch==1.13.1
+transformers==4.35.2
+langchain==0.1.11
+groq==0.22.0 
+faiss-cpu==1.7.4
+altair==4.2.2
+requests
+streamlit
+python-dotenv
+PyPDF2
+sentence-transformers
