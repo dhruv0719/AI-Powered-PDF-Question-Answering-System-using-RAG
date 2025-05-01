@@ -31,5 +31,5 @@
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/ask-your-pdf.git
-cd ask-your-pdf
+git clone https://github.com/dhruv0719/AI-Powered-PDF-Question-Answering-System-using-RAG.git
+cd AI-Powered-PDF-Question-Answering-System-using-RAG
