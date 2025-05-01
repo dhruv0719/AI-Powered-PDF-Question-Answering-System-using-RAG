@@ -1,4 +1,4 @@
-# AI-Powered-PDF-Question-Answering-System-using-RAG
+# 📘 AI-Powered-PDF-Question-Answering-System-using-RAG
 
 **AI-Powered-PDF-Question-Answering-System-using-RAG** is a smart AI assistant that lets you upload one or more PDFs and ask questions about their content. It uses semantic search with embeddings, FAISS indexing, and the Groq API (LLaMA 3 model) to generate accurate, context-aware answers from your documents.
 
@@ -17,12 +17,13 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit  
-- **Backend:** Python, FAISS, Groq API  
-- **NLP:** `sentence-transformers` (all-MiniLM-L6-v2)  
-- **PDF Parsing:** PyPDF2  
-- **Embedding Search:** FAISS  
-- **LLM Generation:** Groq API (LLaMA-3)
+| Layer         | Tool / Library                     |
+|---------------|------------------------------------|
+| Frontend      | Streamlit                          |
+| Backend       | Python, FAISS                      |
+| NLP           | `sentence-transformers` (MiniLM)   |
+| PDF Parsing   | PyPDF2                             |
+| LLM Inference | Groq API (LLaMA 3.3 70B)           |
 
 ---
 
@@ -33,3 +34,31 @@
 ```bash
 git clone https://github.com/dhruv0719/AI-Powered-PDF-Question-Answering-System-using-RAG.git
 cd AI-Powered-PDF-Question-Answering-System-using-RAG
+```
+
+### 2. Create and Activate a Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Add Your .env File
+```bash
+GROQ_API_KEY.env
+```
+Then add this to .env:
+```ini
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### 5. Run the APP
+```bash
+streamlit run main.py
+```
+Then go to http://localhost:8501 in your browser.
